@@ -1,0 +1,58 @@
+<script>
+</script>
+    <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../game/css/bootstrap.min.css"/>
+
+        <style>
+     .imageFeatures
+     {
+      width:150px;
+      height:130px;
+      
+     }
+        </style>
+    </head>
+<body>
+    <script>
+    function displayImage(src) {
+      var img = document.createElement("img");
+      img.src = src;
+      img.classList.add("imageFeatures");
+      document.body.appendChild(img);
+     }
+    </script>
+     <script>
+      var audiot = new Audio('../game/tt.mp3');
+      audiot.play();
+    </script>
+    <script>
+      var audiof = new Audio('../game/ff.mp3');
+      audiof.play();
+    </script> 
+   
+        <button type="button" id="tt" class="btn btn-success" onclick="document.getElementById('myImage').src='../game/t.png';audiot.play();hideUnhide('tt');hideUnhide('ff');hideUnhide('ft')">True</button>
+        <button type="button" id="ff"class="btn btn-success" onclick="document.getElementById('myImage').src='../game/f.png';audiof.play();hideUnhide('tt');hideUnhide('ff');hideUnhide('ft')">Falce</button>
+        <button type="button" id="ft" class="btn btn-success" onclick="document.getElementById('myImage').src='../game/f.png';audiof.play();hideUnhide('tt');hideUnhide('ff');hideUnhide('ft')">Falce</button>
+        <center><img id="myImage" src="../game/w.png" style="width:100px; margin-top:50px;"></center>
+        <script>
+            function hideUnhide(id){
+                const button = document.getElementById(id);
+                if (button.style.display=="none"){
+                    button.style.display =="block";
+                }else{
+                    button.style.display ="none";
+                
+                }
+            }
+            </script>
+        <script src="../game/js/bootstrap.min.js"></script>
+<script src="../game/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+</body>
+</html>

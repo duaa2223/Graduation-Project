@@ -1,0 +1,107 @@
+body{
+    
+  background: url("../images/غيم1.jpg") no-repeat center fixed; 
+background-size: cover;
+animation-name:changebackground;
+animation-duration: 20s;
+animation-iteration-count:  infinite ;
+}
+@keyframes changebackground{
+  20%{
+      background: url("../images/غيم2.jpg") no-repeat center fixed; 
+      background-size: cover;
+  }
+ 30%{background: url("../images/غيم3.jpg") no-repeat center fixed; 
+  background-size: cover;
+
+}
+ 40%{
+background: url("../images/غيم4.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 50%{
+  background: url("../images/غيم5.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 60%{
+  background: url("../images/غيم6.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 70%{
+  background: url("../images/غيم7.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 80%{
+  background: url("../images/غيم8.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 100%{
+  background: url("../images/غيم9.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+ margin: 0;
+  font-family: "Cairo", sans-serif;
+}
+.card {
+  width: 300px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgb(183, 214, 251);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4c7d97 inset;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.card h2 {
+  margin: 0;
+}
+.card p {
+  margin: 0;
+}
+.page {
+  height: 100vh;
+}
+.page::before {
+  content: "";
+  position: fixed;
+  width: 300%;
+  height: 100%;
+  background-color: #269cbc;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) skew(0, -10deg);
+  border-radius: 50%;
+  z-index: -1;
+  animation: waving 10s ease-in-out infinite alternate;
+
+}
+@keyframes waving {
+from {
+transform: translateX(-50%) skew(0, -10deg);
+}
+to {
+transform: translateX(-30%) skew(10deg, 0);
+}
+}
+
+#logo{
+  width:145px;
+  height: 55px;
+  position: fixed;
+top: 0;
+left: 0;
+border: 3px solid #4b84a3;
+}
+
+

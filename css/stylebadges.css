@@ -1,0 +1,8 @@
+.imager{
+    /* position: fixed; */
+    /* top: 0;
+    right: 0; */
+    float:left;
+    width: 100%;
+    border: 3px solid #73AD21;
+  }

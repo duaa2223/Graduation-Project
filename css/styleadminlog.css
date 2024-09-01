@@ -1,0 +1,41 @@
+#logo{
+    width:145px;
+    height:92px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  border: 3px solid #4b84a3;
+}
+body{
+  background-color: rgb(138, 191, 226); 
+  animation-name:changebackground;
+  animation-duration: 15s;
+  animation-iteration-count:  infinite;
+  }
+  @keyframes changebackground{
+      20%{
+          background-color: rgb(140, 220, 220) ; 
+      }
+     30%{background-color: rgb(63, 165, 196) ; 
+    
+    }
+     40%{
+    background-color: rgb(64, 172, 211) ; 
+     }
+     50%{
+      background-color: rgb(64, 145, 185) ; 
+     }
+     60%{
+      background-color: rgb(57, 216, 216) ;
+     }
+     70%{
+      background-color: rgb(25, 190, 231) ; 
+     }
+     80%{
+      background-color: rgb(28, 153, 206) ; 
+     }
+     100%{
+      background-color: aqua; 
+
+     }
+    }

@@ -1,0 +1,31 @@
+header{
+    width:              100%;
+    background-color:   silver;
+    border:             1px ridge gray;
+    border-radius:      20px;
+}
+header > ul{
+    list-style-type:    none;
+    padding:            0;
+    margin:             0;
+    overflow:           hidden;
+}
+header > ul > li{
+    float:              right;
+    background-color:   darkgreen;
+    border:             0.1px solid darkgreen;
+    border-radius:      20px;
+}
+header > ul > li a{
+    display:            block;
+    color:              white;
+    text-align:         center;
+    text-decoration:    none;
+    padding:            16px;
+}
+header > ul > li a:hover{
+    background-color:   white;
+    color:              darkgreen;
+    border:             0.1px solid darkgreen;
+    border-radius:      20px;
+}

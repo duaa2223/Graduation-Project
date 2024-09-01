@@ -1,0 +1,52 @@
+.div1{
+    width:      300px;
+    height:     150px;
+    left:       450px;
+    top:        150px;
+    border:     solid;
+    padding:    20px;
+    text-align: center;
+    display:    inline-block;
+}
+
+.div2{
+    position:   absolute;
+    left:       450px;
+    top:        150px;
+    width:      400px;
+    border:     solid;
+    padding:    20px;
+    text-align: center;
+}
+
+
+.div2:p{
+    font-size:  15px;
+}
+
+.div3{
+    position:   absolute;
+    left:       450px;
+    width:      auto;
+    top:        250px;
+    text-align: center;
+    padding:    20px;
+}
+.div3 > table{
+    width:      100%;
+}
+
+#id{
+    background-color:   silver;
+}
+
+.div4{
+    position:   absolute;
+    left:       400px;
+    width:      500px;
+    top:        150px;
+}
+.div4 > table{
+    width:      100%;
+    border:     solid 1px;
+}

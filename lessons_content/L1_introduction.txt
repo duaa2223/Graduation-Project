@@ -1,0 +1,2 @@
+trees: connected graphs that contains no simple circuits.
+used widely in computer science, algorithms (huffman coding) which is used in saving storage, gaming(chess: to determine winning strategies) and used to determine computational complexity of algo based on a sequence of decisions, like sorting algorithms.

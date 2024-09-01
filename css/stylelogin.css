@@ -1,0 +1,143 @@
+body{
+    
+  background: url("../images/غيم1.jpg") no-repeat center fixed; 
+background-size: cover;
+animation-name:changebackground;
+animation-duration: 20s;
+animation-iteration-count:  infinite;
+}
+
+@keyframes changebackground{
+  20%{
+      background: url("../images/غيم2.jpg") no-repeat center fixed; 
+      background-size: cover;
+  }
+ 30%{background: url("../images/غيم3.jpg") no-repeat center fixed; 
+  background-size: cover;
+
+}
+ 40%{
+background: url("../images/غيم4.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 50%{
+  background: url("../images/غيم5.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 60%{
+  background: url("../images/غيم6.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 70%{
+  background: url("../images/غيم7.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 80%{
+  background: url("../images/غيم8.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+ 100%{
+  background: url("../images/غيم9.jpg") no-repeat center fixed; 
+background-size: cover;
+ }
+}
+.page {
+  height: 100vh;
+}
+.page::before {
+  content: "";
+  position: fixed;
+  width: 300%;
+  height: 100%;
+  background-color: #269cbc;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) skew(0, -10deg);
+  border-radius: 50%;
+  z-index: -1;
+  animation: waving 5s ease-in-out infinite alternate;
+
+}
+@keyframes waving {
+from {
+transform: translateX(-50%) skew(0, -10deg);
+}
+to {
+transform: translateX(-30%) skew(10deg, 0);
+}
+}
+
+input[type=text],input[type=password]{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    border-color: #269cbc;;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: none;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+input[type=text]:hover,input[type=password]:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+input[type=submit]
+{
+    height: 40px;
+    width: 280px;
+    background-color: #269cbc;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    float: left;
+       transition: 0.3s;
+        clear: right;
+}
+input[type=submit]:hover{
+    background-color: #269cbc;;
+    transition: 0.3s;
+}
+div.panel-heading{
+background-color:rgb(147, 214, 217);
+}
+
+
+
+#div1{
+     border:solid; border-color: #84b8e9;
+     margin: 20px;
+     padding: 0%;
+     border-width: 0cap;
+     border-bottom: 0cap;
+     border-width: 1px;
+    
+}
+#div1:hover{
+    box-shadow: 0px 0px 3px 2px #84b8e9;
+  }
+  #div2{
+
+     border:solid;padding:30px ; border-color:#84b8e9; margin: 20px;
+     padding: 0%;
+     margin: 20px;
+     border-width: 0cap;
+     border-bottom: 0cap;
+    border-width: 1px;
+   }
+
+#div2:hover{
+  box-shadow: 0px 0px 3px 2px  #84b8e9 ;
+}
+#smaillimg{
+    border: solid;
+    border-width: 2px;
+    border-color: #269cbc;
+     border-right: none;
+}
